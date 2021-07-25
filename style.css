@@ -1,0 +1,451 @@
+/* ************************************************* */
+/* All Rounder */
+/* ************************************************* */
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('images/bg.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: Century Gothic;
+    font-size: 16px;
+    font-weight: 400;
+    color: #363636;
+}
+
+p{
+    line-height: 190%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ************************************************* */
+/* Top-Tabs */
+/* ************************************************* */
+
+#top-tabs{
+    background-color: rgb(100,100,100,0.7);
+    height: 70px;
+}
+
+#top-tabs ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#top-tabs li{
+    display: inline-block;
+}
+
+#top-tabs a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 50px;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    display: block;
+}
+
+#top-tabs a:hover{
+    background-color: black;
+}
+
+/* ************************************************* */
+/* Heading */
+/* ************************************************* */
+
+#heading{
+    padding: 15px 0px 15px 0px;
+    background-color: rgb(255,128,0,0.6);
+    text-align: center;
+}
+
+#heading h1{
+    letter-spacing: 0.1em;
+    font-size: 30px;
+    color: white;
+}
+
+#heading p{
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+/* ************************************************* */
+/* Home-banner */
+/* ************************************************* */
+
+#home-banner{
+    height: 250px;
+}
+
+#home-banner img{
+    width: 99%;
+    height: 250px;
+    padding-left: 5px;
+}
+
+/* ************************************************* */
+/* Bod */
+/* ************************************************* */
+
+#bod{
+    min-height: 330px;
+    padding: 20px;
+    background-color: rgb(100,100,100,0.9);
+}
+
+#bod a{
+    color: orange;
+    text-decoration: none;
+}
+
+#bod h2{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+}
+
+#bod p{
+    font-size:15px;
+    color: black;
+    line-height:inherit;
+    letter-spacing: inherit;
+}
+
+/* CONTENT */
+
+#content{
+    float: left;
+    width: 70%;
+}
+
+/* SIDE */
+
+#side{
+    float: right;
+    width: 25%;
+}
+
+/* LISTS */
+
+#bod li{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    border-top: solid 1px black;
+    padding-top: 9px;
+    padding-left: 0;
+}
+
+/* ************************************************* */
+/* Foot */
+/* ************************************************* */
+
+#foot{
+    width: 100%;
+    height: 250px;
+    background-color: orange;
+    padding-top: 25px;
+    padding-left: 22px;
+    clear: both;
+}
+
+#list1{
+    float: left;
+    width:55%;
+    padding-right: 30px;
+}
+
+#list2{
+    float: left;
+    width: 35%;
+    padding-right: 30px;
+}
+
+/* ************************************************* */
+/* Copyright */
+/* ************************************************* */
+
+#copyright{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    padding-top: 1px;
+    clear: both;
+}
+
+#copyright p{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform:uppercase;
+    color: white;
+}
+
+/* ************************************************* */
+/* Deals */
+/* ************************************************* */
+
+#head{
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    padding-left: 20px;
+}
+
+.car1 img{
+    height: 150px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    -o-transition: -o-transform 0.5s ease-in;
+}
+
+.car1 img:hover{
+    -moz-transform: scale(3);
+    -webkit-transform: scale(3);
+    -o-transform: scale(3);  
+}
+/* CAR1 */
+
+.car1{
+    margin-top: -22px;
+    background-color: rgb(100,100,100,0.9);
+    border: 3px solid black;
+    height: 450px;
+    width: 100%;
+}
+
+.car1 h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: orange;
+}
+
+/* CAR2 */
+
+.car2{
+    margin-top: -22px;
+    background-color: rgb(100,100,100,0.9);
+    border: 3px solid black;
+    height: 450px;
+    width: 100%;
+}
+
+.car2 h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: orange;
+}
+
+.car2 img{
+    height: 150px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    -o-transition: -o-transform 0.5s ease-in;
+}
+
+.car2 img:hover{
+    -moz-transform: scale(3);
+    -webkit-transform: scale(3);
+    -o-transform: scale(3);  
+}
+
+/* CAR3 */
+
+.car3{
+    margin-top: -22px;
+    background-color: rgb(100,100,100,0.9);
+    border: 3px solid black;
+    height: 450px;
+    width: 100%;
+}
+
+.car3 h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: orange;
+}
+
+.car3 img{
+    height: 150px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    -o-transition: -o-transform 0.5s ease-in;
+}
+
+.car3 img:hover{
+    -moz-transform: scale(3);
+    -webkit-transform: scale(3);
+    -o-transform: scale(3);  
+    
+}/* CAR4 */
+
+.car4{
+    margin-top: -22px;
+    background-color: rgb(100,100,100,0.9);
+    border: 3px solid black;
+    height: 450px;
+    width: 100%;
+}
+
+.car4 h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: orange;
+}
+
+.car4 img{
+    height: 150px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    -o-transition: -o-transform 0.5s ease-in;
+}
+
+.car4 img:hover{
+    -moz-transform: scale(3);
+    -webkit-transform: scale(3);
+    -o-transform: scale(3);  
+}
+
+/* CAR5 */
+
+.car5{
+    margin-top: -22px;
+    background-color: rgb(100,100,100,0.9);
+    border: 3px solid black;
+    height: 450px;
+    width: 100%;
+}
+
+.car5 h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: orange;
+}
+
+.car5 img{
+    height: 150px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    -o-transition: -o-transform 0.5s ease-in;
+}
+
+.car5 img:hover{
+    -moz-transform: scale(3);
+    -webkit-transform: scale(3);
+    -o-transform: scale(3);  
+}
+
+/* CAR6 */
+
+.car6{
+    margin-top: -22px;
+    background-color: rgb(100,100,100,0.9);
+    border: 3px solid black;
+    height: 450px;
+    width: 100%;
+}
+
+.car6 h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: orange;
+}
+
+.car6 img{
+    height: 150px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    -o-transition: -o-transform 0.5s ease-in;
+}
+
+.car6 img:hover{
+    -moz-transform: scale(3);
+    -webkit-transform: scale(3);
+    -o-transform: scale(3);  
+}
+
+/* ************************************************* */
+/* Page */
+/* ************************************************* */
+
+#page{
+    min-height: 600px;
+    padding: 20px;
+    background-color: rgb(100,100,100,0.9);
+}
+
+#page h2{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    color: orange;
+}
+
+#page p{
+    color: black;
+}
+
+#btn{
+    margin-left: 200px;
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 25%;
+    background-color: black;
+    color: orange;
+    text-align: center;
+}
+#btn:hover{
+    margin-left: 200px;
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 25%;
+    background-color: orange;
+    color: black;
+    text-align: center;
+}
+
+#tk{
+    width: 100%;
+    height:300px;
+}
